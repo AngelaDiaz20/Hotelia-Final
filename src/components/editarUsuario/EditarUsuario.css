@@ -1,0 +1,189 @@
+.editUsuario-background{
+    background-image: url(./perfilUsuario.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.editarusuario-fondo{
+    background-color: rgba(0, 0, 0, 0.404);
+    padding:15px 10px;
+    margin: 0;
+}
+.formeditUsuario-background{
+    background-color: rgba(255, 255, 255, 0.539);
+    border-radius: 12px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    max-width: 800px;
+	width: 75%;
+	padding: 20px;
+    margin-bottom: 25px;
+    margin:auto;
+}
+/*.form-editarusuario{
+    border: 2px solid black;
+}*/
+.editar-usuario-primary{
+    background-color: var(--azuloscuro);
+    border-color: var(--azuloscuro);
+}
+.editar-usuario-primary:hover{
+    background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+.form-editarusuario-modal input{
+    border: 1px solid black;
+}
+.form-editarusuario-modal label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.164);
+    padding-top: 5px;
+}
+.form-editarusuario-modal .error, .formhuesped .error,  .error {
+	color: #e92b2d;
+	font-weight: 600;
+}
+.form-editarusuario-modal .exito, .formhuesped .exito, .exito {
+	color: #02a802;
+    display: flex;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.form-editarusuario-modal .error{
+	font-weight: 600;
+    padding-bottom:8px;
+}
+.form-editarusuario-modal .exito {
+	text-align: center;
+	padding-top: 20px;
+}
+.editarusuario-edit{
+    /*border: 2px solid yellow;*/
+    margin:auto;
+    text-align: center;
+    width: 180px;
+}
+.editarusuario-edit img{
+    width: 180px;
+}
+.cambiar-foto-editarusuario{
+    background-color: var(--azuloscuro);
+    border:2px solid var(--azuloscuro);
+    color: white;
+    width: 180px;
+    text-align: center;
+    margin:5px auto 0px;
+    padding: 2px;
+}
+/*file*/
+.contenedor-cambiar-foto {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .contenedor-cambiar-foto input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+.contenedor-cambiar-foto i{
+    color: white;
+}
+.boton-cambiardatos button{
+    background-color: black;
+    margin: 10px 0;
+}
+.btn-secondary{
+    --bs-btn-color: #fff;
+    --bs-btn-bg:black;
+    --bs-btn-border-color:black;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--negro);
+    --bs-btn-hover-border-color: #565e64;
+    --bs-btn-focus-shadow-rgb: 130,138,145;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #565e64;
+    --bs-btn-active-border-color: #51585e;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg:black;
+    --bs-btn-disabled-border-color:black;
+}
+.formhuesped{
+    /*border: 2px solid green;*/
+    margin-bottom: 12px;
+}
+.boton-cambiardatos{
+    /*border: 2px solid red;*/
+    margin: 18px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.formhuesped-background{
+    margin:18px 25px;
+    padding: 22px;
+}
+.formhuesped h4{
+    font-family: 'Marcellus', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+.formhuesped h6{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 3px;
+}
+@media screen and (min-width:600px){
+    .editarusuario-display{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0% auto;
+    }
+    .editarusuario-edit{
+        margin:5px 0;
+        text-align: center;
+        width: 185px;
+    }
+    .editarusuario-fondo{
+        height: 100vh;
+    }
+}
+@media screen and (min-width:768px){
+    .editarusuario-edit{
+        margin:0 20px 0 0;
+    }
+}
+@media screen and (min-width:1024px){
+    .navbar-falsa{
+        width: 35%;
+        height: 100vh;
+        background-color: var(--azuloscuro);
+    }
+    .formhuesped-background{
+        margin:10px 25px;
+    }
+}
+@media screen and (min-width:1300px){
+    .navbar-falsa{
+        width: 25%;
+    }
+    .formhuesped-background{
+        margin: 25px auto;
+    }
+}

@@ -1,0 +1,185 @@
+.cont-habitaciones {
+    margin: 8px;
+}
+
+.title-room {
+    display: flex;
+    justify-content: center;
+    margin-left: 21.5%;
+    background-color: var(--azuloscuro);
+    width: 280px;
+    padding: 5px 3px 1px 3px;
+    border-radius: 3px;
+    color: var(--blanco);
+}
+
+.title-room h4 {
+    font-size: 19px;
+}
+
+.box-form {
+    margin-left: 16%;
+}
+
+.cont-form-room {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px auto;
+    padding: 8px;
+    border: 0.2px solid #FFFDFB;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px #337AB7;
+}
+
+.cont-form-room input {
+    font-size: 14px;
+    width: 170px;
+    background-color: #F0F0F0;
+    border: transparent;
+    border-radius: 3px;
+    padding: 2px 5px;
+    box-shadow: 1px 1px 1px var(--gris);
+}
+
+.cont-entrada input {
+    margin: 25px 6px 15px 20px;
+    color: var(--gris);
+}
+
+.cont-salida input {
+    margin: 18px 2px 10px 33px;
+    color: var(--gris);
+}
+
+.cont-salida label {
+    margin-left: -0.5%;
+}
+
+.input-adultos input {
+    margin: 22px 0 5px 25px;
+}
+
+.input-adultos label {
+    margin-left: -7px;
+}
+
+.input-ninos input {
+    margin: 28px 0 5px 36px;
+}
+
+.input-ninos label {
+    margin-left: -7px;
+}
+
+.item-ver {
+    text-decoration-line: none;
+    background-color: var(--negro2);
+    color: var(--blanco);
+    font-family: 'Marcellus', serif;
+    font-size: 15px;
+    margin: 10% auto;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+
+.item-ver:hover {
+    background-color: var(--azuloscuro);
+    color: var(--blanco);
+    border: 2px solid var(--azuloscuro);
+}
+
+.message-validate{
+    color:  #e92b2d;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 5px;
+    margin-left: -2.5%;
+}
+
+
+@media screen and (min-width:768px) {
+
+    .cont-habitaciones {
+        margin: 25px 3px;
+    }
+
+    .title-room {
+        width: 330px;
+        text-align: center;
+        padding: 1.5% 0.5% 1% 0;
+        margin-left: 35.7%;
+    }
+
+    .box-form {
+        margin-left: 15%;
+    }
+
+    .cont-form-room {
+        width: 65%;
+        margin: 20px auto;
+        padding: 13px 3px;
+    }
+
+    .cont-form-room input {
+        font-size: 15px;
+        width: 190px;
+    }
+
+    .item-ver {
+        font-size: 16px;
+        margin: 11% auto;
+        padding: 5px 10px;
+    }
+
+    /*Cards*/
+
+}
+
+@media screen and (min-width:1024px) {
+
+    .cont-habitaciones {
+        display: flex;
+        margin: 4% 0 0 7%;       
+    }
+
+    .title-room {
+        padding: 3% -1% 1% 0;
+    }
+    
+    .box-form {
+        margin-left: 35%;
+    }
+
+    .cont-form-room {
+        width: 350px;
+        margin: 25px auto;
+    }
+
+    .cont-form-room input {
+        font-size: 16px;
+        width: 210px;
+    }
+
+    .item-ver {
+        font-size: 16px;
+        margin: 13% auto;
+        padding: 5px 12px;
+    }
+
+    /*Cards*/
+
+    
+.cont-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    margin-left: 13%;
+}
+
+}
+
+@media screen and (min-width:1200px) {
+
+}

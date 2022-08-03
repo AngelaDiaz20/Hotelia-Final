@@ -1,0 +1,56 @@
+.text-cardreserve span {
+    color: var(--verdeazul);
+}
+
+.item-cancelar {
+    width: 100%;
+}
+
+.card-room1{
+    box-shadow: 3px 3px 4px var(--gris);
+}
+
+.card-room1{
+    width: 19.5rem;
+    margin-bottom: 2%;
+    margin-left: 3%;
+}
+
+.text-totalvalue{
+    padding: 6% 0 6% 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width:768px) {
+
+    .box-reserve {
+        margin-left: 23.5%;
+    }
+
+    .card-room1{
+        width: 23rem;
+        margin-bottom: 6%;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+
+    .box-reserve {
+        flex-direction: row;
+        margin-left: 3%;
+    }
+
+    /*Cards*/
+
+    .card-room1{
+        width: 19rem;
+        margin-right: 2%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    
+}

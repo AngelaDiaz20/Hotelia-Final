@@ -1,0 +1,122 @@
+.opinions{
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type:mandatory;
+}
+
+.opinion{
+    background: url(../../../img/opinion/Vector-opinion.png) #0d4576 no-repeat;
+    background-size:contain;
+    color: white;
+    min-width: 320px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 3px;
+
+    /*position: absolute;*/
+}
+
+/*.opinion2{
+    left: 35.6%;
+}
+
+.opinion3{
+    left: 68%;
+}*/
+
+.opinion__username{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.opinion__username p{
+    font-family: 'Marcellus', serif;
+    font-size: 18px;
+}
+
+.opinion__username img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.opinion__score i{
+    margin: 0 6px;
+    color: white;
+}
+
+.opinion_user-score{
+    margin-left: 20px;
+}
+
+.opinion__score .magent{
+    color: var(--Magenta);
+}
+
+.opinion__description{
+    font-size: 15px;
+}
+
+@media screen and (min-width: 768px){
+    .opinions{
+        display: flex;
+        overflow-x: hidden;
+        scroll-snap-type:none;
+    }
+
+    
+    
+    .opinion{
+        background: url(../../../img/opinion/Vector-opinion.png) #0d4576 no-repeat;
+        background-size:contain;
+        color: white;
+        min-width: 320px;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 3px;
+    
+        /*position: absolute;*/
+    }
+    
+    /*.opinion2{
+        left: 35.6%;
+    }
+    
+    .opinion3{
+        left: 68%;
+    }*/
+    
+    .opinion__username{
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    
+    .opinion__username p{
+        font-family: 'Marcellus', serif;
+        font-size: 23px;
+    }
+    
+    .opinion__username img{
+        border-radius: 50%;
+        width: 90px;
+        height: 90px;
+    }
+    
+    .opinion__score i{
+        margin: 0 6px;
+    }
+    
+    .opinion_user-score{
+        margin-left: 20px;
+    }
+    
+    .magent{
+        color: var(--Magenta);
+    }
+    
+}
+

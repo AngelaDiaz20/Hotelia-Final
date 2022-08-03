@@ -1,0 +1,185 @@
+.huesped-background-img{
+    background-image: url(./formHuesped.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.huesped{
+    background-color: rgba(0, 0, 0, 0.404);
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    padding: 0;
+    margin: 0;
+}
+.logo-formhuesped{
+    background: linear-gradient(49.54deg, rgba(51, 121, 183, 0.596) 2.89%, rgba(11, 56, 96, 0.596) 80.34%);
+    text-align: center;
+    width: 100%;
+    margin: 18px 0;
+    padding: 10px;
+}
+.logo-formhuesped img{
+    width: 180px;
+    margin-bottom: 10px;
+}
+.logo-formhuesped h5{
+    font-family: 'Marcellus', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(198, 198, 198, 0.25);
+}
+.formhuesped-background{
+    background-color: rgba(255, 255, 255, 0.539);
+    border-radius: 12px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    max-width: 800px;
+	width: 95%;
+	padding: 20px;
+    margin-bottom: 25px;
+}
+.formhuesped-background h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(198, 198, 198, 0.162);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.formhuesped{
+    display: grid;
+	grid-template-columns:  1fr;
+	gap: 18px;
+}
+.formhuesped label, .formhuesped-condiciones label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.formhuesped-input, .formhuesped select, .formhuesped input[type="file"] {
+    margin: 2px auto;
+    padding:5px 10px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    width: 100%;
+}
+.formhuesped-group-radio{
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 400;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+.formhuesped-radio{
+    margin: 2px 2px 2px 0;
+}
+/*condiciones*/
+.formhuesped-condiciones{
+    text-align: center;
+    margin:15px 10px 10px;
+}
+.formhuesped-condiciones input{
+    padding-left: 10px;
+}
+.formhuesped-condiciones a:not([href]):not([class]){
+    text-decoration: underline;
+}
+/*input image*/
+.formhuesped-image{
+        width: 260px;
+}
+.formhuesped input[type="file"] {
+    padding: 3px;
+}
+/*Modal*/
+.modal-header{
+    color:white;
+    background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+    display: flex;
+    justify-content: center;
+
+}
+.formhuesped-modal-button{
+    background-color:#000000;
+    font-size: 18px;
+    padding: 6px 12px;
+}
+.formhuesped-button{
+    display: flex;
+    margin: auto;
+}
+.formhuesped-modal-button:hover{
+    background-color:var(--negro);
+}
+.formhuesped-modal h1{
+    font-size: 25px;
+    margin: 0%;
+    text-align: center;
+}
+@media screen and (min-width:425px){
+    .formhuesped-background{
+        width: 92%;
+        padding:30px;
+    }
+    .formhuesped-image{
+        width: 100%;
+    }
+}
+@media screen and (min-width:768px){
+    .formhuesped{
+        grid-template-columns: 1fr 1fr;
+    }
+    .formhuesped-group-radio{
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .formhuesped-image{
+        padding-top: 5px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .huesped{
+        flex-direction:row;
+        
+    }
+    .logo-formhuesped{
+        height: 122.5vh;
+        width: 40%;
+        margin: 0;
+        padding:20% 2%;
+    }
+    .logo-formhuesped img{
+        width: 280px;
+        margin-bottom: 20px;
+    }
+    .logo-formhuesped h5{
+        font-size: 32px;
+    }
+    .formhuesped-background{
+        max-width: 800px;
+        width: 95%;
+        padding: 20px;
+        margin: 25px 50px;
+    }
+}
+@media screen and (min-width:1300px){
+    .logo-formhuesped{
+        height: 122.5vh;
+        width: 30%;
+        margin: 0;
+        padding:20% 2%;
+    }
+    .formhuesped-background{
+        margin: 25px auto;
+    }
+}

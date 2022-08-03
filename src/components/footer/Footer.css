@@ -1,0 +1,116 @@
+footer{
+    background-color: black;
+    font-size: 15px;
+}
+
+.footer{
+    padding-top: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer p{
+    font-family: 'Marcellus', serif;
+    vertical-align: middle;
+}
+
+.footer__information{
+    display: flex;
+    vertical-align: middle;
+}
+
+.footer__description-information{
+    margin: auto;
+    width: 85%;
+}
+
+.footer__description-information i{
+    margin-right:15px ;
+}
+
+.footer__description{
+    width: 90%;
+    text-align: center;
+    margin: 10px;
+    border-bottom: 1px solid white;
+}
+
+.footer__social-media{
+    display: flex;
+    color: white;
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+}
+
+.politics{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.footer__social-media i{
+    font-size: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.politics-link{
+    text-decoration: none;
+    color: white;
+}
+
+.politics-link:hover, .footer__social-media i:hover{
+    color: antiquewhite;
+}
+
+@media screen and (min-width: 768px){
+    footer{
+        background-color: black;
+        font-size: 18px;
+    }
+
+    .footer{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .footer__information{
+        display: flex;
+        vertical-align: middle;
+        text-align: left;
+    }
+    
+    .footer__description-information{
+        margin: auto;
+        width: 85%;
+    }
+      
+    .footer__description{
+        width: 30%;
+        text-align: center;
+        border-bottom: none;
+    }
+    
+    .footer__social-media{
+        width: 92%;
+        margin: auto;
+        border-top: 1px solid white;
+        padding: 10px 0 30px;
+    }
+    
+    .politics{
+        width: 15%;
+        flex-direction: column;
+    }
+    
+    .footer__social-media i{
+        font-size: 25px;
+        margin-right: 20px;
+    }
+    
+}

@@ -1,0 +1,25 @@
+.admin-reservation{
+    display: flex;
+}
+
+.admin-reservation__card-reserva{
+    width: 85%;
+    margin-left: 15%;
+    background-color: rgb(243, 239, 239);
+}
+
+.reservation-accordion{
+    width: 95%;
+    margin: 20px auto 10px;
+}
+
+.reservation-accordion__header{
+    font-family: 'Roboto', sans-serif; 
+    display: flex;
+    flex-direction: column;
+}
+
+.reservation-accordion__item{
+    margin-left: 20px;
+}
+

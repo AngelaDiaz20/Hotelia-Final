@@ -1,0 +1,353 @@
+.list-rooms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.list-rooms__card{
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    min-width: 250px; 
+}
+
+.list-rooms__card:hover{
+    transform: translateY(-3px);
+    transition-duration: 200ms;
+    box-shadow: 2px 2px 3px #1770f638;
+}
+
+.list-rooms__cardTitle{
+    background-color: #009fe370;
+    padding: 8px;
+    color:white;
+    width: 100%;
+    margin-top: -40px;
+    position: absolute;
+}
+
+.list-rooms__cardPrice{
+    font-family: 'Marcellus', serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+ 
+.list-rooms__buttons{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Marcellus', serif;
+}
+
+.list-rooms__cardButtonPrincipal{
+    background-color: black;
+    width: 100%;
+    font-size: 18px;
+}
+
+.list-rooms__cardButtonSecondary{
+    background-color: var(--Magenta);
+    width: 100%;
+    font-size: 18px;
+    color: white;
+}
+
+.list-rooms__card Button{
+    border: none;
+}
+
+
+
+.list-rooms__filters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F1F1F1;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.list-rooms__select-group{
+    margin: 10px auto;
+    min-width: 250px;
+}
+
+.list-rooms__select-group select{
+    width: 200px;
+    height: 30px;
+    border: transparent;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.20);
+}
+
+.list-rooms__label{
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.card-admin__description-icon {
+    color: black;
+}
+
+.card-admin__description-text{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-rooms__card img{
+    height: 200px;
+}
+
+.card-admin__description-text{
+    height: 45px;
+}
+
+.card-admin__cardButtonPrincipal{
+    color:white;
+    background-color: black;
+    font-size: 18px;
+    padding: 6.5px;
+    border-radius: 5px;
+    border: none;
+    width: 40%;
+}
+
+.card-admin__cardButtonSecondary{
+    color:white;
+    background-color: var(--Magenta);
+    font-size: 18px;
+    padding: 6.5px;
+    border-radius: 5px;
+    border: none;
+    width: 40%;
+}
+
+.card-admin__modal-actual-state{
+    font-size: 18px;
+}
+
+.card-admin__layer {
+    background:linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.734), rgba(0, 0, 0, 0.805), rgba(0, 0, 0, 0.215));
+    color: var(--Magenta);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+}
+
+.hidden-layer{
+    display: none;
+}
+
+.visibility-layer{
+    display: block;
+}
+
+.card-admin__layer h2{
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #e75192;;
+    -webkit-transform: rotate(-25deg);
+}
+
+.container-image-room{
+    position: relative;
+}
+
+/* Card de reserva para administrador */
+.card-admin__booking{
+    width: 95%;
+    margin: auto;
+}
+
+.card-admin__booking-header{
+    background-color: var(--degradado);
+}
+
+.booking-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    margin-top: 10px;
+}
+
+
+
+.cardReservaAdmin{
+    width: 95%;
+    margin: 20px auto;
+    padding: 0 0 2px 0;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.14);
+}
+
+.basic-reservation-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--degradado);
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-admin__buttons-booking{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+
+.booking-data-user{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.booking-data-user p{
+    width: 350px;
+    min-width: 200px;
+    margin:0 20px;
+}
+
+.booking-room-data{
+    display: grid;
+    grid-template-columns: 30% 60%;
+}
+
+.booking-room-data img{
+    width: 300px;
+}
+
+.booking-room-data i{
+    color: black;
+}
+
+.booking-room-data span{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.booking-data__room-description-title{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.booking-data__booking-description{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.booking-data__booking-description p{
+    margin: 0 20px 0 0;
+}
+
+.booking-data__booking-price{
+    width: 300px;
+    text-align: center;
+}
+
+.booking-description__total{
+    border-top: 1px solid black;
+    padding: 5px 0;
+}
+
+.booking-description__subtotal{
+    margin-bottom: 0;
+}
+
+.booking-prices{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booking-warning{
+    width: 500px;
+    min-width: 300px;
+}
+
+.booking-warning p{
+    margin: auto 0;
+    font-size: 14px;
+}
+
+
+@media screen and (min-width:768px) {
+    .list-rooms{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .list-rooms__card{
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .list-rooms__cardTitle{
+        background-color: #009fe370;
+        padding: 8px;
+        color:white;
+        width: 100%;
+        margin-top: -40px;
+    }
+    
+    .list-rooms__cardPrice{
+        font-family: 'Marcellus', serif;
+        font-size: 30px;
+        font-weight: 600;
+    }
+     
+    .list-rooms__buttons{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Marcellus', serif;
+    }
+    
+    .list-rooms__cardButtonPrincipal{
+        background-color: black;
+        width: 48%;
+        font-size: 18px;
+    }
+    
+    .list-rooms__cardButtonSecondary{
+        background-color: var(--Magenta);
+        width: 100%;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    
+    .list-rooms__card Button{
+        border: none;
+    }
+        
+    .list-rooms__filters{
+        display: flex;
+        justify-content: center;
+        background-color: #F1F1F1;
+        padding: 10px;
+        margin: 20px 0;
+    }
+    
+    
+    .list-rooms__select-group select{
+        width: 200px;
+        height: 30px;
+        border: transparent;
+        border-radius: 3px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.20);
+    }
+    
+    .list-rooms__label{
+        margin-right: 20px;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,54 @@
+.App{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img{
+    margin: auto;
+}
+
+.errorMsg{
+    color: var(--Magenta);
+    font-weight: 400;
+	font-size: 14px;
+    margin-left: 10px;
+    text-shadow: .1px 0px .1px #1e0511;
+}
+
+.imgPreview{
+    width: 100%;
+    min-width: 300px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.imgPreview input[type="file"]{
+    display: none;
+}
+
+.imgPreview .customFileUpload {
+    color: #55d6d6;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.button__image {
+    border: none;
+    outline: none;
+    width: 100%;
+    background: var(--Magenta);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+

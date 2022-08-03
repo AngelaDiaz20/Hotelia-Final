@@ -1,0 +1,400 @@
+.modify-room{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #f1f1f1cb;
+    width: 85%;
+}
+
+.modify-room__title{
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 95%; 
+    margin: 20px 0;
+}
+
+.modify-room__image-principal, .modify-room__image{
+    position: relative;
+    display: inline-block;
+}
+
+.modify-room__icon{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.modify-room__icon i{
+    background-color: #3379b7be;
+    color: white;
+    padding: 8px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+
+.modify-room__additional-services i{
+    font-size: 30px;
+    color: black;
+}
+
+.modify-room__additional-information input, .modify-room__state input{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+
+.modify-room__additional-information{
+    width: 90%;
+    margin-top: 20px;
+}
+
+.modify-room__additional-services{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.modify-room .modify-room__galery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.modify-room__galery img{
+    width: 100%;
+}
+
+.image__form{
+    width: 40%;
+    margin-right: 5%;
+    height: 100px;
+}
+
+.image__form img{
+    width: 100%;
+    background-color: aqua;
+}
+
+.modify-room__image{
+    min-width: 120px;
+    max-width: 250px;
+    margin: 0 20px 20px;
+}
+
+.modify-room__image i{
+    font-size: 20px;
+}
+
+.modify-room__state{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.modify-room__information-basic{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modify-room__image-principal{
+    height: 100%;
+}
+
+.modify-room__form{
+    width:90%;
+}
+
+.modify-room__form-section-primary{
+    display: grid;
+    grid-template-columns: 65% 30%;
+    justify-content: space-between;
+}
+
+.modify-room__form-section-secondary{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+}
+
+.modify-room__subtitle{
+    margin: 20px 0;
+}
+
+.modify-room__input{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.modify-room__input input{
+    border-radius: 0;
+}
+
+.modify-room__form-section-secondary i{
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.modify-room__buttons{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 20px;
+}
+
+.modify-room__ButtonPrincipal, .modify-room__ButtonSecondary{
+    background-color: var(--Magenta);
+    border: none;
+    font-family: 'Marcellus', serif;
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.modify-room__ButtonPrincipal{
+    background-color: var(--Magenta);
+}
+
+.modify-room__ButtonSecondary{
+    background-color: black;
+}
+
+
+.modify-room__additional-services{
+    width: 80%;
+    margin: auto;
+}
+
+.listado-habitacion-admin{
+    display: flex;
+    justify-content: space-between;
+}
+
+.listado-habitacion-admin__container{
+    width: 85%;
+}
+
+.room-register-admon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.room-register-admon__form{
+    width: 85%;
+}
+
+.modify-room__information-basic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.room-information__radio{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    width: 300px;
+    padding: 5px;
+    border: 2px dashed rgba(0, 0, 255, 0.215);
+}
+
+.room-information__radio-item{
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.room-information__radio-item p{
+    margin: auto 5px;
+}
+
+.room-information__radio-item img{
+    height: 30px;
+    margin: auto 5px;
+}
+
+.room-information__radio-item div{
+    width: 50px;
+    text-align: center;
+}
+
+.room-information__radio i{
+    color: black;
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+} 
+ 
+.room-information__radio-group{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.room-information__radio-group label{
+    margin: auto 8px;
+}
+
+.title-room-information{
+    border-bottom: 1px solid black;
+    margin: 10px 0 25px 0;
+}
+
+.modal-body-information{
+    display: grid;
+    grid-template-columns: 55.5% 43.5%;
+    column-gap: 10px;
+}
+
+.title-room-information__secondary{
+    display: grid;
+    grid-template-columns: 27% 27% 43.5%;
+    column-gap: 10px;
+}
+
+.room-information__adittional{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (min-width:768px) {
+    .modify-room{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        background-color: #f1f1f1cb;
+    }
+    
+    .modify-room__title{
+        text-align: center;
+        border-bottom: 1px solid black;
+        width: 95%; 
+        margin: 20px 0;
+    }
+
+    .modify-room__ButtonPrincipal, .modify-room__ButtonSecondary{
+        font-size: 20px;
+    }
+    
+    .modify-room__image-principal, .modify-room__image{
+        position: relative;
+        display: inline-block;
+    }
+    
+    .modify-room__icon{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    .modify-room__icon i{
+        background-color: #3379b7be;
+        color: white;
+        padding: 8px;
+        border-radius: 2px;
+        font-size: 25px;
+    }
+    
+    .modify-room__additional-services i{
+        font-size: 20px;
+    }
+    
+    .modify-room__additional-information input, .modify-room__state input{
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
+    }
+    
+    .modify-room__additional-information{
+        width: 90%;
+        margin-top: 20px;
+    }
+    
+    .modify-room__additional-services{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    .modify-room__galery{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .modify-room__galery img{
+        width: 100%;
+    }
+    
+    .modify-room__image{
+        width: 90%;
+        margin: 0 20px 20px;
+    }
+    
+    .modify-room__image i{
+        font-size: 20px;
+    }
+    
+    .modify-room__state{
+        display: flex;
+        width: 400px;
+        justify-content: space-around;
+    }
+    
+    .modify-room__information-basic{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .modify-room__image-principal{
+        height: 100%;
+    }
+    
+    .modify-room__form{
+        width:60%;
+    }
+    
+    .modify-room__form-section-primary{
+        display: grid;
+        grid-template-columns: 65% 30%;
+        justify-content: space-between;
+    }
+    
+    .modify-room__form-section-secondary{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        justify-content: space-between;
+    }
+    
+    .modify-room__subtitle{
+        margin: 20px 0;
+    }
+    
+    .modify-room__input{
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        border-radius: 5px;
+    }
+    
+    .modify-room__input input{
+        border-radius: 0;
+    }
+    
+    .modify-room__form-section-secondary i{
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+    }
+}

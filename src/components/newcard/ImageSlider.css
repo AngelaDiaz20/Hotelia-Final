@@ -1,0 +1,15 @@
+.main{
+    text-align: center;
+  }
+  .flex_row{
+    justify-content: center;
+    display: flex;
+    padding-top: 5px;
+  }
+  
+.thumbnail{
+  padding-left: px;
+}
+.clicked{
+  border: 5px solid black;
+}

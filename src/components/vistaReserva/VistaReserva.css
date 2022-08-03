@@ -1,0 +1,57 @@
+.box-reserve {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+}
+
+.title-room2 {
+    text-align: center;
+    border-bottom: 1.5px solid var(--negro);
+    width: 78%;
+    margin-left: 19%;
+}
+
+.cont-cards-reserve{
+    margin-left: 10%;
+}
+
+@media screen and (min-width:768px) {
+
+    .title-room2 {
+        width: 600px;
+        margin-left: 18%;
+    }
+
+    .title-room2 h4 {
+        font-size: 26px;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+
+    .title-room2 {
+        width: 915px;
+        margin-left: 19.5%;
+    }
+
+    /*Cards*/
+
+    .cont-cards-reserve{
+        display: flex;
+        margin-left: 15%;
+        margin-right: 8%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    
+    .title-room2 {
+        width: 930px;
+        margin-left: 20.5%;
+    }
+
+    .cont-cards-reserve{
+        margin-left: 17%;
+    }
+}

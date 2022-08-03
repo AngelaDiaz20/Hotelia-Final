@@ -1,0 +1,14 @@
+.button{
+    background-color:black;
+    padding: 5px 20px;
+    color: white;
+    font-family: 'Marcellus', serif;
+    font-size: 22px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.button__link{
+    margin:40px 30px 30px;
+    width: 40%;
+}
